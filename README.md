@@ -22,3 +22,14 @@
 | 3    | Document-Based | Respects the document's native structure like headers, tables, or code syntax.                                    | Markdown files, HTML pages, or Python/Java code.                     | Splitting a README at every \## Header to keep sections together.                          |
 | 4    | Semantic       | Uses embeddings to identify "meaning shifts" and splits only when the topic actually changes.                     | Complex, dense, or unstructured legal/medical texts.                 | Grouping sentences together as long as their similarity score stays above a set threshold. |
 | 5    | Agentic        | Uses a smaller LLM "agent" to act like a human editor, deciding where to cut based on logical flow.               | High-value, complex documents where quality is worth the extra cost. | An agent reading a dense contract and marking boundaries where clauses begin and end.      |
+
+
+
+
+
+
+### additional chunking
+- cluster chunking
+- RAG pipeline
+- tokens image
+- dataset and problem statement
